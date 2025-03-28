@@ -1,0 +1,36 @@
+.container
+{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+h3{
+    color: aliceblue;
+    text-align: center;
+}
+.input
+{
+    padding: 10px;
+    text-align: center;
+}
+#textbox
+{
+       padding: 10px 10px 100px 20px;
+       background-color: bisque;
+}
+
+.btn
+{
+    padding: 10px;
+    text-align: center;
+}
+
+#btn
+{
+    padding: 5px;
+}
+p{
+    color: white;
+    text-align: ;
+}

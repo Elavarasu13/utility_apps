@@ -1,0 +1,62 @@
+/* css gradient generator */
+body{
+    
+    background: #347991;
+    background-attachment: fixed;
+    background: linear-gradient(90deg, rgba(52, 121, 145, 1) 0%, rgba(89, 128, 101, 1) 50%, rgba(117, 115, 84, 1) 100%);
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#form
+{
+    width: 400px;
+    /* total page top margin 20vh */
+    margin: 5vh auto 0 auto;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: #347991;
+}
+#form button{
+    background-color: #347991; 
+    border: 1px solid  #0c3b4b;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0px;
+    font-size: 20px;
+    width: 100%;
+    color: azure;
+}
+.input-group
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #0c3b4b;
+}
+.input-group input:focus{
+    outline: 0;
+}
+.input-group .error
+{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input-group.success input{
+    border-color: green;
+}
+.input-group.error input{
+    border-color: red;
+}

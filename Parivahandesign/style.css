@@ -1,0 +1,113 @@
+body{
+   margin: 0;
+   background-color: aliceblue;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.navbar {
+    background-color: #060685;
+    padding:15px;
+    text-align: center;
+}
+.navbar a{
+    color:aliceblue;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.navbar input{
+    padding: 5px;
+    border-radius: 5px;
+}
+.content {
+    display: flex;
+}
+.content .logo{
+    padding:10px;
+    justify-content: end;
+    margin-left: 250px;
+    border-right:  2px solid black;
+}
+.content ul li {
+    list-style-type: none;
+}
+.content #title1{
+    color: grey;
+    margin-top: 10px;
+}
+.content #title2{
+    display: inline;
+    padding-bottom:250px;
+}
+.navbar-2{
+    background:linear-gradient(to right, #005183, #01263c);
+    padding: 15px;
+    text-align: center;
+}
+.navbar-2 a,label{
+    color: aliceblue;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.navbar-2 label select{
+    padding: 5px;
+    border-radius: 5px;
+}
+.navbar-3
+{
+    text-align: center;
+    background-color: #060685;
+    padding: 5px;
+    margin-top: 10px;
+    color: aliceblue;
+    transform:translateX(left to right)
+}
+.navbar-3 p{
+    background-color: red;
+    width: fit-content;
+    margin-left: 30%;
+    padding:2px;
+}
+.box-head{
+    text-align: center;
+}
+main{
+    display: flex;
+}
+.sewa{
+    margin-left: 30px;
+    border :1px solid #ccc;
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sewa h2 , p {
+    text-align: center;
+}
+
+.sewa img  {
+    margin-left:103px;
+}
+.sewa a{
+    margin-left:130px;
+    background-color: #005183;
+    padding: 5px;
+    border-radius: 3px;
+    color: #ccc;
+    text-decoration: none;
+}
+.sewa:hover{
+    border:1px solid blue;
+}
+.sewa a:hover{
+    background:linear-gradient(to bottom,blue ,black)
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    background-color: black;
+    color: #ccc;
+  
+}
